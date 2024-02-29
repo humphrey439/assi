@@ -1,0 +1,104 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 125px;
+}
+
+.main-container{
+    display: flex;
+}
+
+img{
+    height: 600px;
+    width: 400px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.container2{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0px 15px 15px 0px;
+    margin-bottom: 5px;
+
+}
+
+.text{
+    text-align: left;
+    width: 350px;
+    margin: 40px;
+
+}
+
+@media all and (max-width: 1440px) {
+    
+}    
+    
+
+.one{
+    font-family: "Montserrat", sans-serif;
+}
+
+.two{
+    font-family: "Fraunces", serif;
+    font-size: 35px;
+    padding: 1px;
+    text-decoration: solid;
+}
+
+.three{
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    padding: 0px;
+}
+
+.four{
+    font-family: "Fraunces", serif;
+    font-size: 45px;
+    color: hsl(158, 36%, 37%);
+    margin-top: 5px;
+
+}
+
+.five{
+    font-family: "Montserrat", sans-serif;
+    float: right;
+    margin-top: 20px;
+    margin-right: 70px;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+
+.six{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.img2{
+    width: 20px;
+    height: 20px;
+}
+
+.container3{
+    background-color: hsl(158, 36%, 37%);
+    margin-top: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+
+}
+.container3:hover{
+    background-color: hsl(212, 21%, 14%);
+}
+
+
+
+
+
